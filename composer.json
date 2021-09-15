@@ -1,0 +1,17 @@
+{
+    "name": "extrawest/woo-ukrainian-payment-gateways",
+    "description": "Woo Ukrainian Payment Methods",
+    "type": "project",
+    "require": {},
+    "autoload": {
+        "psr-4": {
+            "WooUkrainianPaymentGateways\\App\\"                   : "app/",
+            "WooUkrainianPaymentGateways\\App\\Controllers\\PrivatPayments\\" : "app/controllers/privat-payments/",
+            "WooUkrainianPaymentGateways\\App\\Helpers\\"     : "app/helpers/",
+            "WooUkrainianPaymentGateways\\App\\Helpers\\PrivatPayments\\"     : "app/helpers/privat-payments/",
+            "WooUkrainianPaymentGateways\\App\\Models\\"      : "app/models/",
+            "WooUkrainianPaymentGateways\\App\\Renders\\"     : "app/renders/",
+            "WooUkrainianPaymentGateways\\App\\Renders\\PrivatPayments\\"     : "app/renders/privat-payments/"
+        }
+    }
+}

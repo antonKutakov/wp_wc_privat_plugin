@@ -1,0 +1,259 @@
+#adminmenu .wp-menu-image img{
+    width: 26px !important;
+    opacity: 1 !important;
+    padding-top: 4px;
+}
+
+.pp-settings-page-title-wrapper{
+    display: flex;
+    align-items: center;
+}
+
+.pp-title-wrapper{
+    padding-left: 15px;
+}
+
+.pp-logo-wrapper > img{
+    width: 35px;
+}
+
+.pp-settings-page-title-wrapper{
+    background: #FFFFFF;
+    border: 2px solid #75AF26;
+    border-radius: 30px;
+    padding: 20px;
+    margin: 20px 20px;
+}
+
+.pp-settings-container{
+    background: #FFFFFF;
+    border: 2px solid #75AF26;
+    border-radius: 30px;
+    padding: 30px;
+    margin: 20px 20px;
+    position: relative;
+}
+
+.pp-form-input-wrapper{
+    margin-bottom: 25px;
+}
+
+.pp-form-text > p{
+    font-family: 'Open Sans',sans-serif;
+    font-size: 18px;
+    margin: 0;
+    line-height: 0;
+    display: inline-block;
+}
+
+.pp-form-text{
+    padding-bottom: 10px;
+}
+
+.pp-form-input > input{
+    padding: 10px 20px;
+    border: 1px solid #75AF26;
+    border-radius: 15px;
+    background: #F1ECEE;
+    font-weight: 600;
+    font-family: 'Open Sans',sans-serif;
+    font-size: 15px;
+}
+
+
+.pp-form-input > button{
+    width: 170px;
+    padding: 10px;
+    background: #FFFFFF;
+    border: 2px solid #75AF26;
+    border-radius: 30px;
+    cursor: pointer;
+    transition: all .3s ease;
+    font-family: 'Open Sans', sans-serif;
+    font-size: 16px;
+    color: #3c4858;
+    font-weight: 600;
+}
+
+.pp-form-input > button:hover{
+    background: #75AF26;
+    border: 2px solid #75AF26;
+    color: #FFFFFF;
+}
+
+.pp-statements-credit-debit-wrapper{
+    background: #FFFFFF;
+    display: flex;
+    flex-direction: row;
+    max-width: 410px;
+    border: 2px solid #75AF26;
+    justify-content: space-between;
+    /* padding: 0px 20px; */
+}
+
+.pp-balance-account-meta,
+.pp-statements-account-meta{
+    width: 40%;
+}
+
+.pp-balance-account-meta:first-child,
+.pp-statements-account-meta:first-child{
+    width: 20%;
+}
+
+.pp-balance-account-meta:nth-child(2),
+.pp-statements-account-meta:nth-child(2){
+    border-left: 2px solid #75AF26;
+    border-right: 2px solid #75AF26;
+}
+
+.pp-balance-account-meta .pp-title,
+.pp-statements-account-meta .pp-title{
+    background: #75AF26;
+    padding: 10px 0;
+    text-align: center;
+}
+
+.pp-balance-account-meta .pp-title p,
+.pp-statements-account-meta .pp-title p{
+    margin: 0;
+    color: #FFFFFF;
+    font-family: 'Open Sans', sans-serif;
+    font-weight: 600;
+}
+
+.pp-balance-account-meta .pp-value,
+.pp-statements-account-meta .pp-value{
+    text-align: center;
+    font-family: 'Open Sans', sans-serif;
+}
+
+.pp-balance-list,
+.pp-statements-list{
+    margin-top: 30px;
+    width: 100%;
+    border: 2px solid #75AF26;
+}
+
+.pp-balance-header,
+.pp-statement-header{
+    display: flex;
+    /* justify-content: space-around; */
+    background: #75AF26;
+}
+
+.pp-balance-header-title,
+.pp-statement-header-title{
+    width: 15%;
+}
+
+.pp-balance-header-title p,
+.pp-statement-header-title p {
+    color: #FFFFFF;
+    font-family: "Open Sans", sans-serif;
+    font-weight: 600;
+    font-size: 14px;
+    text-align: center;
+}
+
+.pp-balance-content-item,
+.pp-statement-content-item{
+    display: flex;
+    align-items: center;
+    background: #FFFFFF;
+    border-top: 2px solid #75AF26;
+}
+
+.pp-balance-content-item-value,
+.pp-statement-content-item-value{
+    width: 15%;
+    text-align: center;
+}
+
+.pp-balance-content-item-value p,
+.pp-statement-content-item-value p{
+    text-align: center;
+    font-size: 14px;
+    font-family: "Open Sans", sans-serif;
+    font-weight: 500;
+}
+
+.pp-preloader-archive,
+.pp-preloader{
+    position: absolute;
+    top: 0;
+    left: 0;
+    bottom: 0;
+    right: 0;
+    background: rgba(0, 0, 0, 0.2);
+    border-radius: 25px;
+    display: none;
+    justify-content: center;
+    align-items: center;
+}
+
+.pp-error-handler-archive,
+.pp-error-handler{
+    position: absolute;
+    top: 0;
+    left: 0;
+    bottom: 0;
+    right: 0;
+    background: rgba(0, 0, 0, 0.2);
+    border-radius: 25px;
+    display: none;
+    justify-content: center;
+    align-items: center;
+}
+
+.pp-error-handler-text-block-archive,
+.pp-error-handler-text-block{
+    background: rgba(255, 3, 20, 0.185);
+    padding: 10px 40px;
+    border-radius: 30px;
+    border: 2px solid #ff0028;
+}
+
+.pp-error-handler-text-block-archive p,
+.pp-error-handler-text-block p{
+    font-family: 'Open Sans', sans-serif;
+    font-size: 17px;
+    color: #3c4858;
+    font-weight: 600;
+}
+.pp-balance-form-archive,
+.pp-balance-form{
+    margin-top: 3em;
+}
+
+.pp-form-balance-btn > button {
+    width: 210px;
+}
+
+.pp-form-input > input[type="checkbox"]:checked:before{
+    position: absolute;
+    top: 3px;
+    left: 3px;
+    right: 0;
+    bottom: 0;
+    margin: unset;
+    color: #75AF26;
+}
+
+.pp-form-input > input[type="checkbox"]{
+    position: relative;
+    height: 30px;
+    width: 30px;
+}
+
+.pp-input-enable{
+    display: flex;
+    justify-content: flex-start;
+    align-items: center;
+    align-content: center;
+}
+
+.pp-input-enable .pp-form-text{
+    padding-bottom: 0;
+    padding-right: 10px;
+}
